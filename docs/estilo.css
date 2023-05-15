@@ -1,0 +1,72 @@
+﻿/* inserindo um seletor reset para remover as margens e paddings */
+* {
+	margin: 0;
+	padding: 0;
+}	
+
+body {
+	color: black;
+	background-color: #cecece;
+}
+
+#cabecalho {
+	width: 100%;
+	height: 10vh;
+	/*background-color: yellow;*/
+}	
+#conteudo {
+	width: 100%;
+	height: 80vh;
+	/*background-color: blue;*/
+}
+#rodape {
+	width: 100%;
+	height: 10vh;
+	/*background-color: green;*/
+	text-align: center;
+	clear: both;
+}	
+
+.foto {
+	width: 100%;	
+}	
+.caixinha {
+	/*background-color: red;*/
+	width: 30%;
+	display: inline-block;
+	float: left;
+}
+.meio {
+	margin-left: 5%;
+	margin-right: 5%;
+}	
+p {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+.cor {
+	color: green;
+}
+.fundo{
+	background-color: #ff0;
+}
+.lista{ margin-left: 50px;
+}
+	
+.caixinfra {
+	background-color: #ab0433;
+	width: 45%;
+	display: inline-block;
+	float: left;
+}
+
+.imgdireita{
+	margin-left: 10%;
+
+}
+
+.quebra{
+	clear: both;
+}
+
+	
